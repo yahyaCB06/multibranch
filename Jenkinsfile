@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage("test"){
       steps{
-        echo 'branch namee is $env.BRANCH_NAME'
+        echo 'branch namee is ${env.BRANCH_NAME}'
       }
     }
   }
